@@ -1,0 +1,697 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.background{
+    background-image: url(./images/lo-homepage-background-010721.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #070E19;
+    position: fixed;
+    top: 0;
+}
+.menuu{
+ height: 30px; 
+ margin-left: 190px; 
+ margin-top: 2px;
+}
+.navigation p{
+    color: white;
+    margin-left: 70px;
+}
+.button{
+    background-color: yellow;
+    border: none;
+    height: 30px;
+    margin-top: 7px;
+    color: white;
+    border-radius: 5px;
+}
+.rightnav{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 8px;
+    color: white;
+    gap: 20px;
+}
+.rightnav p{
+    margin-right: 6px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+
+.text{
+    color: white;
+    margin-left: 70px;
+}
+.smalltextt{
+    color: white;
+    margin-left: 70px;
+}
+.orange{
+    background-color: orangered;
+    border: none;
+    font-size: 9px;
+    padding: 11px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+.blue{
+    background-color: rgb(57, 126, 217);
+    padding: 8px;
+    font-size: 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 160px;
+}
+.bluee{
+    background-color: rgb(57, 126, 217);
+    padding: 15px;
+    font-size: 9px;
+    margin-top: px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+
+}
+.buttondiv{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+    gap: 20px;
+}  
+.img_grid img{
+    height:320px;
+    margin-left:220px;
+    margin-top: 50px;
+
+}
+.flex{
+    display: flex;
+}
+.line{
+    height: 6px;
+    width: 60%;
+    background-color: orangered;
+    margin: 0 auto;
+}
+.smallertext{
+    font-size: 12px;
+    text-align: center;
+    padding: 6px 20px;
+}
+.square button{
+    margin-top:100px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    font-size: 9px;
+    padding: 8px;
+}
+.grid{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    gap: 1px;
+    margin: 0 auto;
+}
+.blackgrid{
+    background-color: rgb(37, 36, 36);
+}
+.first img{
+    height: 30px;
+    margin-top: 50px; 
+    margin-left: 100px;
+}
+.second img{
+    height: 30px;
+    margin-top: 50px; 
+    margin-left: 100px;
+}
+.first{
+    display: flex;
+}
+.textt{
+    margin-top: 50px;
+    color: white;  
+    margin-left: 150px;      
+}
+.second{
+    display: flex;
+}
+.texttt{
+    color: white;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.tool{
+    font-size:17px;
+    height: 40px;
+}
+.small{
+    font-size: 7px;
+    cursor: pointer;
+    margin-top:12px;
+    
+}
+
+.fourgridholder{
+    width: 100%;
+    height: 131px;
+    background-color:black;
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    gap: 1px;
+    margin: 0 auto;
+}
+.fourgrid{
+    background-color: rgb(21, 115, 210);
+    color: white;
+    height: 130px;  
+}
+.bigger{
+    width: 165%;
+}
+.bigger p{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.tech{
+    width: 78%;
+    margin-left: 70px;
+    gap: 0;
+}
+.techie{
+    width: 79%;
+    margin-left: 133px;
+    gap: 0;
+}
+.bigger p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.techiee{
+    width: 81%;
+    margin-left: 199px;
+    gap: 0;
+}
+.techiee p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.techie p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.tech p{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.threegridholder{
+    width: 100%;
+    height: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 1px;
+    background-color:black;  
+}
+.gapp{
+    margin-bottom: 0px;
+}
+.upper{
+    width: 419px;
+    background-color: rgb(136, 193, 51);
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.upper img{
+    margin-top: 13px;
+}
+.upper p{
+    margin-top: 11px;
+}
+
+.lower{
+    width: 419px;
+    background-color: rgb(136, 193, 51);
+    height: 200px;
+    margin-top: 1px;
+    align-content: center;
+}
+
+.smalll{
+    text-align: center;
+    color: white;
+    margin-top: 11px;
+    font-size: 18px;
+}
+.middle{
+    height: 400px;
+    width: 419px;
+    background-color: rgb(136, 193, 51);
+    align-content: center;
+    text-align: center;
+}
+.white{
+    color: white;
+    font-size: 50px;
+}
+.margin{
+    margin-top: 40px;
+}
+.cyber{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.upperr{
+    width: 419px;
+    background-color: rgb(136, 193, 51);
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+.nice{
+    margin-top: 9px;
+}
+.lowerr{
+    width: 419px;
+    background-color: rgb(136, 193, 51);
+    height: 200px;
+    margin-top: 1px;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+.lowerr p{
+    margin-top: 20px;
+}
+.pinkholder{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 1px;
+    background-color: black;
+    margin: 0 auto;
+}
+.firstpink{
+    background-color: rgb(118, 40, 113);
+    height: 266px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.secondpink{
+    background-color: rgb(118, 40, 113);
+    height: 133px;
+    width: 100%;
+    margin-top: 1px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.thirdpink{
+    background-color: rgb(118, 40, 113);
+    height: 132px;
+    width: 100%;
+    align-content: center;
+    color: white;
+}
+.pad{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.pad h3{
+    margin-top: 65px;
+}
+.pad img{
+    margin-bottom: 50px ;
+}
+.pad p{
+    margin-top: 15px;
+}
+.fourthpink{
+    background-color: rgb(118, 40, 113);
+    height: 132px;
+    width: 100%;
+    margin-top: 1px;
+    align-content: center;
+    text-align: left;
+    color: white;
+}
+.fifthpink{
+    background-color: rgb(118, 40, 113);
+    height: 132px;
+    width: 100%;
+    margin-top: 1px;
+    align-content: center;
+    text-align: left;
+    color: white;
+}
+.around{
+    font-size: 40px;
+}
+.fourthpink p{
+    margin-left: 30px ;
+}
+.fifthpink p{
+    margin-left: 30px;
+}
+.bluegridholder{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    background-color: black;
+    gap: 1px;
+    margin: 0 auto;
+}
+.fourblueholder{
+    height: 399px;
+    width: 630px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:black;
+    gap:1px;
+}
+.firstblue{
+    background-color:#009DDC;
+}
+.took{
+    height: 200px;
+}
+.pmi{
+    height: 200px;
+}
+.pact{
+    height: 200px;
+}
+.veeam{
+    height: 200px;
+}
+.firstblue img{
+
+}
+.oneblueholder{
+    background-color:#009DDC;
+    align-content: center;
+}
+.we{
+    margin-left: 110px;
+}
+.are{
+    color: white;
+}
+.okay{
+    font-size: 70px;
+}
+.arrow{
+    display: flex;
+    gap: 15px;
+}
+.arrow p{
+    margin-top: 2px;
+}
+
+.firstblue{
+    gap: 1px;
+}
+
+.yellowgridholder{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    background-color: black;
+    gap: 6px;
+}
+.firstyellow{
+    height: 149px;
+    margin-top: 2px;
+    background-color: #FFC427;
+    width: 155%;
+    color: white;
+    display: flex;  
+    gap: 2px;
+}
+.margin{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.letss{
+    font-size: 60px;
+}
+.secondyellow{
+    height: 149px;
+    margin-top: 2px;
+    background-color: #FFC427;
+    width: 45%;
+    margin-left: 345px;
+    align-content: center;  
+}
+footer{
+    background-color: #060606;
+    height: 85px;
+    width: 91vw;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_holder{
+    display: flex;
+}
+footer P{
+    color: gray;
+    display: flex;
+}
+.footer_holder2 p{
+    font-size: 12px;
+}
+footer img{
+    height: 30px;
+    margin-left: 10px;
+}
+.terms{
+    margin-bottom: 9px;
+    margin-left: 90px;
+}
+.imagediv{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .navigation{
+        display: flex;
+        height: 40px;
+        width: 144vw;
+        padding: 0;
+        align-items: center;
+    }
+    .rightnav a{
+        margin-left: 18px;   
+    }
+    .rightnav{
+        
+    }
+    .navigation p{
+        margin-left: 3%;
+        font-size: 9px;
+    }
+    .eat{
+        height: 3%; 
+        margin-left: 15px;
+        margin-left: 15px;
+    }
+    .menuu{
+        margin-left: 90px;
+    }
+    .button{
+        padding: -200px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .background{
+        height: 160px;
+        width: 142vw;
+    }
+    .flex{
+        display: flex;
+    }
+    .toptext{
+        margin-top: -50px;
+        margin-left: -60px;
+    }
+    .text{
+        color: white;
+        font-size: 20px;  
+    }
+    .write{
+        margin-bottom:130px;
+    }
+    .smalltextt{
+        font-size: 9px;
+    }
+    .buttondiv{
+        display: flex;
+        margin-left: 70px;
+        margin-top: -120px;
+        gap: 10px;
+        }
+    .orange{
+        background-color: orangered;
+        border: none;
+        width: 65px;
+        font-size: 5px;
+        padding: 5px;
+        border-radius: 2px;
+        color: white;
+        }
+    .blue{
+        width: 75px;
+        font-size: 5px;
+        color: white;
+        background-color: #009DDC;
+        padding: 5px;
+        border: none;
+        border-radius: 2px;
+    }  
+    .bluee{
+        width: 65px;
+        font-size: 5px;
+        color: white;
+        background-color: #009DDC;
+        padding: 10px 0;
+        border: none;
+        border-radius: 2px;
+    } 
+    .img_grid img{
+        height:100px;
+        margin-left:35px;
+        margin-top: 50px;
+    }
+    .grid{
+        width: 142svw;
+        height: 70px;
+        background-color:white;
+        grid-template-columns: repeat(2,1fr);
+        display: grid;
+        gap: 1px;
+        margin: 0 auto;  
+    }
+    .first img{
+        height: 10px;
+        margin-top: 30px; 
+        margin-left: 40px
+     }
+     .textt{
+        margin-top: 5px;
+        color: white;  
+        margin-left: 30px;   
+     } 
+     .tool{
+        font-size:7px;
+        height: 40px;
+        margin-right: 28px;
+    } 
+    .small{
+        font-size: 5px;
+        cursor: pointer;
+        margin-top:2px;   
+    }
+    .second img{
+        height: px;
+        margin-top: 23px; 
+        margin-left: 20px
+    }
+    .texttt{
+        color: white;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .texttt p{
+        font-size: 7px;
+        margin-right: 9px;
+    }
+    .smalll{
+        font-size: 5px;
+        cursor: pointer;
+        margin-top:29px;
+        margin-right: 70p; 
+    }
+    .fourgridholder{
+        width: 142%;
+        height: 60px;
+        background-color:black;
+        grid-template-columns: repeat(4,1fr);
+        display: grid;
+        gap: 1px;
+        margin: 0 auto;
+        margin-right: 30px;
+    }
+    .fourgrid{
+        background-color: rgb(21, 115, 210);
+        color: white;
+        height:60px; 
+    }
+    .bigger{
+        width: 230%;
+        gap: 1px; 
+    }
+    .bigger p{
+        margin-top: 10px;
+        margin-left: 40px;
+        font-size: 9px;
+    }
+    .techiee{
+        width: 37%;
+        margin-left: 100px;
+        gap: 1;
+        background-color: rgb(21, 115, 210) ;
+        align-content: center;
+    }
+    .techiee p{
+        font-size:8px;
+        margin-right: 90px;
+        margin-bottom: 40px;
+    }
+    .techie{
+        width: 36%;
+        height: 60px;
+        margin-right: 700px;
+        gap: 1;
+        background-color: rgb(21, 115, 210) ;
+        align-content: center;
+    }
+    .techie p{
+        font-size:8px;
+        margin-right: 90px;
+        margin-bottom: 40px;
+    }
